@@ -9,6 +9,7 @@ public class App {
                 .build();
 
         //deliver pizza
-        //this is chaining of methds using the builder pattern in the pizza class
+        //this is chaining of methods using the builder pattern in the pizza class
     }
 }
+

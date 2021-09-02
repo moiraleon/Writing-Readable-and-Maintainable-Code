@@ -1,0 +1,25 @@
+https://app.pluralsight.com/course-player?clipId=f8a860f4-8ea9-4629-a721-e1efad10eb69
+//video for parameters with getter methods and formatting and builder
+
+Avoid booleans -> look for ways to split the method instead
+//magic numbers
+
+Throw IllegalArgumentException or IllegalState
+.isNotEmpty()
+
+//return early
+//avoid nesting with ternary operations
+
+Within catch blocks do two things:
+
+Log error
+	log.error(e);
+Re-throw it and pass all useful information to the exception
+	throw new CustomException(e);
+
+Avoid exceptions in finally
+Or try{} with resources mechanism
+
+/avoid if statements in tests because in that case you are testing more than one things and your tests should be testing one thing at a time unless for example UI tests in a browser than run slow//follow DAMP principle in test code//not intended to be shortest amount of code
+
+Test templates and patterns AAA BDD templates
